@@ -1,0 +1,4 @@
+﻿2017-10-06 17:26:02.103 [Info] Connecting to 40.68.120.116:5400...
+2017-10-06 17:26:02.510 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+2017-10-06 17:26:02.522 [Info] Connected [00000000-0000-0000-0000-000000000000].
+2017-10-06 17:26:42.633 [Warn] WarningMessage: Received unhandled library message Ping from 40.68.120.116:5400

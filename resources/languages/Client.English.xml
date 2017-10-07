@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Intersect Client Language File - Beta 3 -->
+<Strings>
+	<Main>
+		<string id="gamename">Miraclum 0.01</string>
+	</Main>
+	<General>
+	  <!-- Used everywhere. Sounds on map, resource graphics, panoramas, item types, etc. English is None or No Selection. Choose whatever fits best in your language. Try to keep this the same across the client, editor, and server language files as well. -->
+		<string id="none">None</string>
+	</General>
+	<Combat>
+		<string id="exp">Doświadczenie</string>
+		<string id="vital0">Życie</string>
+		<string id="vital1">Mana</string>
+		<string id="stat0">Atak</string>
+		<string id="stat1">AP</string>
+		<string id="stat2">Obrona</string>
+		<string id="stat3">Odporność na Magię</string>
+		<string id="stat4">Szybkość</string>
+	</Combat>
+	<Admin>
+		<string id="title">Administracja</string>
+		<string id="name">Nazwa:</string>
+		<string id="warp2me">Warp To Me</string>
+		<string id="warpme2">Warp Me To</string>
+		<string id="kick">Kick</string>
+		<string id="kill">Zabij</string>
+		<string id="ban">Ban</string>
+		<string id="noclip">No Clip:</string>
+		<string id="nocliptip">Check to walk through obstacles.</string>
+		<string id="unban">Odbanuj</string>
+		<string id="mute">Wycisz</string>
+		<string id="unmute">Odcisz</string>
+		<string id="sprite">Wygląd:</string>
+		<string id="none">None</string>
+		<string id="setsprite">Ustaw wygląd</string>
+		<string id="face">Twarz:</string>
+		<string id="setface">Ustaw twarz</string>
+		<string id="access">Dostęp:</string>
+		<string id="access0">None</string>
+		<string id="access1">Moderator</string>
+		<string id="access2">Admin</string>
+		<string id="setpower">Moc</string>
+		<string id="maplist">Lista map:</string>
+		<string id="chronological">123...</string>
+		<string id="chronologicaltip">Order maps chronologically.</string>
+		<string id="mutecaption">Mute {00}</string>
+		<string id="muteprompt">Muting {00} will not allow them to chat in game for the duration you set!</string>
+		<string id="bancaption">Ban {00}</string>
+		<string id="banprompt">Banning {00} will not allow them to access this game for the duration you set!</string>
+		<string id="unmutecaption">Unute {00}</string>
+		<string id="unmuteprompt">Are you sure that you want to unmute {00}?</string>
+		<string id="unbancaption">Unban {00}</string>
+		<string id="unbanprompt">Are you sure that you want to unban {00}?</string>
+	</Admin>
+	<Bank>
+		<string id="title">Bank</string>
+		<string id="deposititem">Depozytuj przedmiot</string>
+		<string id="deposititemprompt">Ile przedmiotów {00} chciałbyś zdepozytować?</string>
+		<string id="withdrawitem">Wypłać przedmiot</string>
+		<string id="withdrawitemprompt">Ile przedmiotów {00} chcesz wypłacić?</string>
+	</Bank>
+	<Bags>
+		<string id="title">Torba</string>
+		<string id="storeitem">Depozyt przedmiotów</string>
+		<string id="storeitemprompt">Ile sztuk {00} chciałbyś przechować?</string>
+		<string id="retreiveitem">Odbierz przedmiot</string>
+		<string id="retreiveitemprompt">Ile sztuk {00} chciałbyś odebrać?</string>
+	</Bags>
+	<BanMute>
+		<string id="reason">Powód:</string>
+		<string id="duration">Długość:</string>
+		<string id="1day">1 dzień</string>
+		<string id="2days">2 dni</string>
+		<string id="3days">3 dni</string>
+		<string id="4days">4 dni</string>
+		<string id="5days">5 dni</string>
+		<string id="1week">1 tydzień</string>
+		<string id="2weeks">2 tygodnie</string>
+		<string id="1month">1 miesiąc</string>
+		<string id="2months">2 miesięcy</string>
+		<string id="6months">6 miesięcy</string>
+		<string id="1year">1 rok</string>
+		<string id="forever">Na zawsze</string>
+		<string id="ip">Dołączony adres IP:</string>
+		<string id="ok">Ok:</string>
+		<string id="cancel">Anuluj:</string>
+	</BanMute>
+	<Character>
+		<string id="title">Postać</string>
+		<string id="name">{00}</string>
+		<string id="levelandclass">Poziom: {00} {01}</string>
+		<string id="equipment">Wyposażenie:</string>
+		<string id="stats">Statystyki:</string>
+		<string id="stat0">{00}: {01}</string>
+		<string id="stat1">{00}: {01}</string>
+		<string id="stat2">{00}: {01}</string>
+		<string id="stat3">{00}: {01}</string>
+		<string id="stat4">{00}: {01}</string>
+		<string id="points">Punkty: {00}</string>
+	</Character>
+	<CharacterCreation>
+		<string id="title">Stwórz postać</string>
+		<string id="name">Nazwa Postaci:</string>
+		<string id="class">Profesja:</string>
+		<string id="gender">Płeć:</string>
+		<string id="male">Mężczyzna</string>
+		<string id="female">Kobieta</string>
+		<string id="create">Stwórz</string>
+		<string id="invalidname">Nazwa postaci jest nieprawidłowa. Proszę używać znaków alfanumerycznych o długości od 2 do 20.</string>
+	</CharacterCreation>
+	<Chatbox>
+		<string id="channel1">Lokalny</string>
+		<string id="channel2">Globalny</string>
+		<string id="channel3">Drużyna</string>
+		<string id="channeladmin">admin</string>
+		<string id="enterchat">Kliknij tutaj aby napisać.</string>
+		<string id="enterchat1">Kliknij Enter aby napisać.</string>
+		<string id="enterchat2">Kliknij Enter aby napisać.</string>
+		<string id="send">Wyślij</string>
+	</Chatbox>
+	<CraftingBench>
+		<string id="title">Rzemiosło</string>
+		<string id="recepies">Przepisy:</string>
+		<string id="ingredients">Składniki:</string>
+		<string id="product">Rezultat:</string>
+		<string id="incorrectresources">Nie masz odpowiednich zasobów do wykonania tego przedmiotu.</string>
+		<string id="craft">Stwórz</string>
+	</CraftingBench>
+	<Debug>
+		<string id="title">Debug</string>
+		<string id="fps">FPS: {00}</string>
+		<string id="ping">Ping: {00}</string>
+		<string id="draws">Draws: {00}</string>
+		<string id="map">Map: {00}</string>
+		<string id="x">X: {00}</string>
+		<string id="y">Y: {00}</string>
+		<string id="z">Z: {00}</string>
+		<string id="knownentities">Known Entities: {00}</string>
+		<string id="knownmaps">Known Maps: {00}</string>
+		<string id="mapsdrawn">Maps Drawn: {00}</string>
+		<string id="entitiesdrawn">Entities Drawn: {00}</string>
+		<string id="lightsdrawn">Lights Drawn: {00}</string>
+		<string id="time">Time: {00}</string>
+	</Debug>
+	<EntityBox>
+		<string id="vital0">HP:</string>
+		<string id="vital1">MP:</string>
+		<string id="exp">EXP:</string>
+		<string id="vital0val">{00} / {01}</string>
+		<string id="vital1val">{00} / {01}</string>
+		<string id="expval">{00} / {01}</string>
+		<string id="maxlevel">Maks. Poziom</string>
+		<string id="level">Lv. {00}</string>
+		<string id="trade">Handel</string>
+		<string id="party">Drużyna</string>
+		<string id="tradetip">Wysłano zaproszenie do handlu {00}.</string>
+		<string id="partytip">{00} zaprasza Cię do swojej drużyny.</string>
+	</EntityBox>
+	<EventWindow>
+		<string id="continue">Kontynuuj</string>
+	</EventWindow>
+	<GameMenu>
+		<string id="items">Inwentarz</string>
+		<string id="spells">Księga Czarów</string>
+		<string id="character">Informacje o postaci</string>
+		<string id="quest">Dziennik misji</string>
+		<string id="friends">Przyjaciele</string>
+		<string id="party">Drużyna</string>
+		<string id="options">Opcje</string>
+		<string id="exit">Wyjdź</string>
+	</GameMenu>
+	<InputBox>
+		<string id="okay">Ok</string>
+		<string id="cancel">Anuluj</string>
+		<string id="yes">Tak</string>
+		<string id="no">Nie</string>
+	</InputBox>
+	<Inventory>
+		<string id="title">Inwentarz</string>
+		<string id="dropitem">Wyrzuć przedmiot</string>
+		<string id="dropitemprompt">Ile {00} chcesz wyrzucić?</string>
+	</Inventory>
+	<ItemDesc>
+		<string id="quantity">x{00}</string>
+		<string id="itemtype0"></string>
+		<string id="itemtype1">Ekwipunek</string>
+		<string id="itemtype2">Konsumpcyjny</string>
+		<string id="itemtype3">Waluta</string>
+		<string id="itemtype4">Czary</string>
+		<string id="itemtype5">Specjalny</string>
+		<string id="itemtype6">Torba</string>
+		<string id="2hand">Dwuręczny</string>
+		<string id="desc">Opis: {00}</string>
+		<string id="prereq">Wymagania:</string>
+		<string id="bonuses">Bonus do statystyk:</string>
+		<string id="damage">Bazowe obrażenia: {00}</string>
+		<string id="effect">Efekt bonusu: {00}% {01}</string>
+		<string id="effect0">Redukcja czasu odnowienia</string>
+		<string id="effect1">Lifesteal</string>
+	</ItemDesc>
+	<Login>
+		<string id="title">Login</string>
+		<string id="username">Login:</string>
+		<string id="password">Hasło:</string>
+		<string id="savepass">Zapisz hasło</string>
+		<string id="login">Zaloguj</string>
+		<string id="back">Wróć</string>
+	</Login>
+	<Credits>
+		<string id="title">Twórcy</string>
+		<string id="back">Wróć</string>
+	</Credits>
+	<MainMenu>
+		<string id="title">Główne Menu</string>
+		<string id="login">Logowanie</string>
+		<string id="register">Rejestracja</string>
+		<string id="credits">Twórcy</string>
+		<string id="exit">Wyjdź</string>
+		<string id="options"></string>
+	</MainMenu>
+	<Shop>
+		<string id="sellitem">Sprzedaj przedmiot</string>
+		<string id="sellitemprompt">Ile sztuk {00} chciałbyś sprzedać?</string>
+		<string id="buyitem">Kup przedmiot</string>
+		<string id="buyitemprompt">Ile sztuk {00} chciałbyś kupić?</string>
+		<string id="cannotsell">Ten sklep nie skupuje tego przedmiotu!</string>
+		<string id="sellsfor">Sprzedaj za {00} - {01} sztuk</string>
+		<string id="costs">Koszt {00} - {01} sztuk</string>
+		<string id="wontbuy">Sklep nie kupi tego przedmiotu</string>
+	</Shop>
+	<Trading>
+		<string id="title">Handel z {00}</string>
+		<string id="youroffer">Twoja oferta:</string>
+		<string id="theiroffer">Oferty:</string>
+		<string id="accept">Akceptuj</string>
+		<string id="pending">Oczekujące</string>
+		<string id="value">Wartość {00}</string>
+		<string id="offeritem">Oferta przedmiotu</string>
+		<string id="offeritemprompt">Ile sztuk {00} chciałbyś zaoferować?</string>
+		<string id="revokeitem">Zwróć przedmiot</string>
+		<string id="revokeitemprompt">Ile sztuk {00} chcesz cofnąć?</string>
+		<string id="traderequest">Pytanie o handel</string>
+		<string id="requestprompt">{00} zaprosił Cię do handlu przedmiotami z nim. Akceptujesz?</string>
+	</Trading>
+	<Spells>
+		<string id="title">Czary</string>
+		<string id="forgetspell">Zapomnij o czarze</string>
+		<string id="forgetspellprompt">Czy na pewno chcesz zapomnieć o czarze {00}?</string>
+	</Spells>
+	<SpellDesc>
+		<string id="spelltype0">Atakujący</string>
+		<string id="spelltype1">Warp - Self Cast</string>
+		<string id="spelltype2">Warp - Self Cast</string>
+		<string id="spelltype3">Skok</string>
+		<string id="spelltype4">Event</string>
+		<string id="desc">Opis: {00}</string>
+		<string id="targettype0">Self Cast</string>
+		<string id="targettype1">Kierunek - zakres: {00} kratek</string>
+		<string id="targettype2">Obszarowy - zakres: {00} kratek - Promień: {01} Kratek</string>
+		<string id="targettype3">Balistyczny - zakres: {00} kratek</string>
+		<string id="casttime">Czas rzucania: {00} sekund</string>
+		<string id="cooldowntime">Czas odnowienia: {00} sekund</string>
+		<string id="prereqs">Wymagania:</string>
+		<string id="vital0cost">Koszt życia: {00}</string>
+		<string id="vital1cost">Koszt many: {00}</string>
+		<string id="effects">Efekty:</string>
+		<string id="effect1">Wyciszenie</string>
+		<string id="effect2">Pułapka</string>
+		<string id="effect3">Oszołomienie</string>
+		<string id="effect4">Oślepienie</string>
+		<string id="effect5">Podstęp</string>
+		<string id="effect6">Przemiana</string>
+		<string id="vital0">{00}{01}</string>
+		<string id="vital1">{00}{01}</string>
+		<string id="addsymbol">+</string>
+		<string id="removesymbol">-</string>
+		<string id="duration">Czas: {00} sekund</string>
+	</SpellDesc>
+	<Options>
+		<string id="title">Opcje</string>
+		<string id="resolution">Rozdzielczość:</string>
+		<string id="targetfps">Target FPS:</string>
+		<string id="vsync">V-Sync</string>
+		<string id="30fps">30</string>
+		<string id="60fps">60</string>
+		<string id="90fps">90</string>
+		<string id="120fps">120</string>
+		<string id="unlimitedfps">Bez limitu</string>
+		<string id="fullscreen">Pełen Ekran</string>
+		<string id="soundvolume">Głośność dzwięku: {00}%</string>
+		<string id="musicvolume">Glośność muzyki: {00}%</string>
+		<string id="apply">Zastosuj</string>
+		<string id="cancel">Anuluj</string>
+	</Options>
+	<Controls>
+		<string id="Title">Sterowanie</string>
+		<string id="Edit">Edytuj sterowanie</string>
+		<string id="Listening">Listening</string>
+		<string id="MoveUp">Do góry:</string>
+		<string id="MoveDown">W dół:</string>
+		<string id="MoveLeft">Lewo:</string>
+		<string id="MoveRight">Prawo:</string>
+		<string id="AttackInteract">Atak/Interakcja:</string>
+		<string id="Block">Blok:</string>
+		<string id="PickUp">Podnieś:</string>
+		<string id="Enter">Wejdź:</string>
+		<string id="Hotkey1">Hot Key 1:</string>
+		<string id="Hotkey2">Hot Key 2:</string>
+		<string id="Hotkey3">Hot Key 3:</string>
+		<string id="Hotkey4">Hot Key 4:</string>
+		<string id="Hotkey5">Hot Key 5:</string>
+		<string id="Hotkey6">Hot Key 6:</string>
+		<string id="Hotkey7">Hot Key 7:</string>
+		<string id="Hotkey8">Hot Key 8:</string>
+		<string id="Hotkey9">Hot Key 9:</string>
+		<string id="Hotkey0">Hot Key 0:</string>
+	</Controls>
+	<Keys>
+		<string id="None">None</string>
+		<string id="LButton">Left Mouse</string>
+		<string id="RButton">Right Mouse</string>
+		<string id="Cancel">Cancel</string>
+		<string id="MButton">Middle Mouse</string>
+		<string id="XButton1">XButton1</string>
+		<string id="XButton2">XButton2</string>
+		<string id="Back">Back</string>
+		<string id="Tab">Tab</string>
+		<string id="LineFeed">LineFeed</string>
+		<string id="Clear">Clear</string>
+		<string id="Return">Return</string>
+		<string id="Enter">Enter</string>
+		<string id="ShiftKey">ShiftKey</string>
+		<string id="ControlKey">ControlKey</string>
+		<string id="Menu">Menu</string>
+		<string id="Pause">Pause</string>
+		<string id="CapsLock">CapsLock</string>
+		<string id="Capital">Capital</string>
+		<string id="HanguelMode">HanguelMode</string>
+		<string id="HangulMode">HangulMode</string>
+		<string id="KanaMode">KanaMode</string>
+		<string id="JunjaMode">JunjaMode</string>
+		<string id="FinalMode">FinalMode</string>
+		<string id="KanjiMode">KanjiMode</string>
+		<string id="HanjaMode">HanjaMode</string>
+		<string id="Escape">Escape</string>
+		<string id="IMEConvert">IMEConvert</string>
+		<string id="IMENonconvert">IMENonconvert</string>
+		<string id="IMEAceept">IMEAceept</string>
+		<string id="IMEAccept">IMEAccept</string>
+		<string id="IMEModeChange">IMEModeChange</string>
+		<string id="Space">Space</string>
+		<string id="Prior">Prior</string>
+		<string id="PageUp">Page Up</string>
+		<string id="PageDown">Page Down</string>
+		<string id="Next">Next</string>
+		<string id="End">End</string>
+		<string id="Home">Home</string>
+		<string id="Left">Left</string>
+		<string id="Up">Up</string>
+		<string id="Right">Right</string>
+		<string id="Down">Down</string>
+		<string id="Select">Select</string>
+		<string id="Print">Print</string>
+		<string id="Execute">Execute</string>
+		<string id="Snapshot">Snapshot</string>
+		<string id="PrintScreen">PrintScreen</string>
+		<string id="Insert">Insert</string>
+		<string id="Delete">Delete</string>
+		<string id="Help">Help</string>
+		<string id="D0">0</string>
+		<string id="D1">1</string>
+		<string id="D2">2</string>
+		<string id="D3">3</string>
+		<string id="D4">4</string>
+		<string id="D5">5</string>
+		<string id="D6">6</string>
+		<string id="D7">7</string>
+		<string id="D8">8</string>
+		<string id="D9">9</string>
+		<string id="A">A</string>
+		<string id="B">B</string>
+		<string id="C">C</string>
+		<string id="D">D</string>
+		<string id="E">E</string>
+		<string id="F">F</string>
+		<string id="G">G</string>
+		<string id="H">H</string>
+		<string id="I">I</string>
+		<string id="J">J</string>
+		<string id="K">K</string>
+		<string id="L">L</string>
+		<string id="M">M</string>
+		<string id="N">N</string>
+		<string id="O">O</string>
+		<string id="P">P</string>
+		<string id="Q">Q</string>
+		<string id="R">R</string>
+		<string id="S">S</string>
+		<string id="T">T</string>
+		<string id="U">U</string>
+		<string id="V">V</string>
+		<string id="W">W</string>
+		<string id="X">X</string>
+		<string id="Y">Y</string>
+		<string id="Z">Z</string>
+		<string id="LWin">LWin</string>
+		<string id="RWin">RWin</string>
+		<string id="Apps">Apps</string>
+		<string id="Sleep">Sleep</string>
+		<string id="NumPad0">NumPad 0</string>
+		<string id="NumPad1">NumPad 1</string>
+		<string id="NumPad2">NumPad 2</string>
+		<string id="NumPad3">NumPad 3</string>
+		<string id="NumPad4">NumPad 4</string>
+		<string id="NumPad5">NumPad 5</string>
+		<string id="NumPad6">NumPad 6</string>
+		<string id="NumPad7">NumPad 7</string>
+		<string id="NumPad8">NumPad 8</string>
+		<string id="NumPad9">NumPad 9</string>
+		<string id="Multiply">Multiply</string>
+		<string id="Add">Add</string>
+		<string id="Separator">Separator</string>
+		<string id="Subtract">Subtract</string>
+		<string id="Decimal">Decimal</string>
+		<string id="Divide">Divide</string>
+		<string id="F1">F1</string>
+		<string id="F2">F2</string>
+		<string id="F3">F3</string>
+		<string id="F4">F4</string>
+		<string id="F5">F5</string>
+		<string id="F6">F6</string>
+		<string id="F7">F7</string>
+		<string id="F8">F8</string>
+		<string id="F9">F9</string>
+		<string id="F10">F10</string>
+		<string id="F11">F11</string>
+		<string id="F12">F12</string>
+		<string id="F13">F13</string>
+		<string id="F14">F14</string>
+		<string id="F15">F15</string>
+		<string id="F16">F16</string>
+		<string id="F17">F17</string>
+		<string id="F18">F18</string>
+		<string id="F19">F19</string>
+		<string id="F20">F20</string>
+		<string id="F21">F21</string>
+		<string id="F22">F22</string>
+		<string id="F23">F23</string>
+		<string id="F24">F24</string>
+		<string id="NumLock">NumLock</string>
+		<string id="Scroll">Scroll</string>
+		<string id="LShiftKey">L Shift</string>
+		<string id="RShiftKey">R Shift</string>
+		<string id="LControlKey">L Control</string>
+		<string id="RControlKey">R Control</string>
+		<string id="LMenu">L Menu</string>
+		<string id="RMenu">R Menu</string>
+		<string id="BrowserBack">BrowserBack</string>
+		<string id="BrowserForward">BrowserForward</string>
+		<string id="BrowserRefresh">BrowserRefresh</string>
+		<string id="BrowserStop">BrowserStop</string>
+		<string id="BrowserSearch">BrowserSearch</string>
+		<string id="BrowserFavorites">BrowserFavorites</string>
+		<string id="BrowserHome">BrowserHome</string>
+		<string id="VolumeMute">VolumeMute</string>
+		<string id="VolumeDown">VolumeDown</string>
+		<string id="VolumeUp">VolumeUp</string>
+		<string id="MediaNextTrack">MediaNextTrack</string>
+		<string id="MediaPreviousTrack">MediaPreviousTrack</string>
+		<string id="MediaStop">MediaStop</string>
+		<string id="MediaPlayPause">MediaPlayPause</string>
+		<string id="LaunchMail">LaunchMail</string>
+		<string id="SelectMedia">SelectMedia</string>
+		<string id="LaunchApplication1">LaunchApplication1</string>
+		<string id="LaunchApplication2">LaunchApplication2</string>
+		<string id="OemSemicolon">OemSemicolon</string>
+		<string id="Oem1">1</string>
+		<string id="Oemplus">+</string>
+		<string id="Oemcomma">,</string>
+		<string id="OemMinus">-</string>
+		<string id="OemPeriod">.</string>
+		<string id="OemQuestion">?</string>
+		<string id="Oem2">2</string>
+		<string id="Oemtilde">`</string>
+		<string id="Oem3">3</string>
+		<string id="OemOpenBrackets">[</string>
+		<string id="Oem4">4</string>
+		<string id="OemPipe">|</string>
+		<string id="Oem5">5</string>
+		<string id="Oem6">6</string>
+		<string id="OemCloseBrackets">]</string>
+		<string id="OemQuotes">'</string>
+		<string id="Oem7">7</string>
+		<string id="Oem8">8</string>
+		<string id="OemBackslash">\</string>
+		<string id="Oem102">0</string>
+		<string id="ProcessKey">ProcessKey</string>
+		<string id="Packet">Packet</string>
+		<string id="Attn">Attn</string>
+		<string id="Crsel">Crsel</string>
+		<string id="Exsel">Exsel</string>
+		<string id="EraseEof">EraseEof</string>
+		<string id="Play">Play</string>
+		<string id="Zoom">Zoom</string>
+		<string id="NoName">NoName</string>
+		<string id="Pa1">Pa1</string>
+		<string id="OemClear">OemClear</string>
+		<string id="KeyCode">KeyCode</string>
+		<string id="Shift">Shift</string>
+		<string id="Control">Control</string>
+		<string id="Alt">Alt</string>
+		<string id="Modifiers">Modifiers</string>
+	</Keys>
+	<Parties>
+		<string id="title">Drużyna</string>
+		<string id="leader">Lider drużyny</string>
+		<string id="kick">Wyrzuć {00}</string>
+		<string id="leave">Opuść drużyne</string>
+		<string id="partyinvite">Zaproszenie do drużyny</string>
+		<string id="inviteprompt">{00} zaprosił Cię na do swojej drużyny. Akceptujesz?</string>
+	</Parties>
+	<Friends>
+		<string id="title">Przyjaciele</string>
+		<string id="removefriend">Usuń przyjaciela</string>
+		<string id="removefriendprompt">Czy chcesz usunąć {00} z listy przyjaciół?</string>
+		<string id="request">Zaproszenie do przyjaciół</string>
+		<string id="requestprompt">{00} wysłał Ci prośbę o przyjaciela. Akceptujesz?</string>
+	</Friends>
+	<QuestOffer>
+		<string id="title">Misja</string>
+		<string id="accept">Akceptuj</string>
+		<string id="decline">Odrzuć</string>
+	</QuestOffer>
+	<QuestLog>
+		<string id="title">Dziennik misji</string>
+		<string id="abandon">Porzuć</string>
+		<string id="abandontitle">Zrezygnuj z misji: {00}</string>
+		<string id="abandonprompt">Czy na pewno chcesz zrezygnować z misji "{00}"?</string>
+		<string id="notstarted">Nie zaczęto misji</string>
+		<string id="inprogress">Misja w trakcie</string>
+		<string id="completed">Misja zakończona</string>
+		<string id="currenttask">Aktualne zadanie:</string>
+		<string id="tasknpc">{00}/{01} {02}(s) zabitych.</string>
+		<string id="taskitem">{00}/{01} {02}(s) zebranych.</string>
+	</QuestLog>
+	<Registration>
+		<string id="title">Rejestracja</string>
+		<string id="username">Login:</string>
+		<string id="email">E-mail:</string>
+		<string id="password">Hasło:</string>
+		<string id="confirmpass">Powtórz hasło:</string>
+		<string id="register">Rejestruj</string>
+		<string id="back">Wróć</string>
+		<string id="emailinvalid">E-mail jest nie prawidłowy.</string>
+		<string id="passwordmatch">Hasła nie pasują!</string>
+	</Registration>
+  <CharacterSelection>
+		<string id="name">{00}</string>
+		<string id="empty">Pusty slot na postać</string>
+    <string id="title">Wybierz postać</string>
+    <string id="info">Poziom {00} {01}</string>
+    <string id="play">Graj</string>
+    <string id="delete">Usuń</string>
+    <string id="new">Nowa postać</string>
+		<string id="deletetitle">Usuń {00}</string>
+		<string id="deleteprompt">Na pewno chcesz usunać {00}? To działanie jest nieodwracalne!</string>
+  </CharacterSelection>
+	<Resources>
+		<string id="failedtoload">Nie można wczytać zasobów!</string>
+		<string id="resourceexception">Nie można pobrać zasobów klienta.\n\n Exception Info: {00}\n\n Czy chcesz spróbować ponownie?</string>
+		<string id="resourcesfatal">Nie można wczytać zasobów z katalogu klienta i serwera Miraclum. Nie można uruchomić gry!</string>
+		<string id="cancelled">Pobieranie zostało anulowane!</string>
+	</Resources>
+	<Regex>
+		<string id="email">^(([\w-]+\.)+[\w-]+|([a-zA-Z]{1}|[\w-]{2,}))@((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|([a-zA-Z]+[\w-]+\.)+[a-zA-Z]{2,4})$</string>
+		<string id="username">^[a-zA-Z0-9]{2,20}$</string>
+		<string id="password">^[a-zA-Z0-9]{4,20}$</string>
+	</Regex>
+	<Errors>
+		<string id="title">Błąd!</string>
+		<string id="usernameinvalid">Nazwa użytkownika jest niepoprawna. Proszę używać znaków alfanumerycznych o długości od 2 do 20.</string>
+		<string id="passwordinvalid">Hasło jest błędne. Proszę używać znaków alfanumerycznych o długości od 4 do 20.</string>
+		<string id="notconnected">Błąd w połączeniu!</string>
+		<string id="notsupported">Nieobsługiwane!</string>
+		<string id="openglerror">Ta platforma nie jest obsługiwana. Miraclum wymaga sterowników kompatybilnych z OpenGL 3.0 lub ARB_frambuffer_object lub EXT_framebuffer_object. Zaaktualizowanie sterowników graficznych może rozwiązać ten problem.</string>
+	</Errors>
+</Strings>

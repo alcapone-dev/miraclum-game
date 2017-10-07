@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Language>English</Language>
+  <Host>40.68.120.116</Host>
+  <Port>5400</Port>
+  <RenderCache>true</RenderCache>
+  <MenuBGM />
+  <MenuBG>background.png</MenuBG>
+  <Logo>logo.png</Logo>
+  <IntroBG />
+</Config>

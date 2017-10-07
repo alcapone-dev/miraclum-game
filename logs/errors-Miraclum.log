@@ -1,0 +1,18 @@
+﻿2017-10-04 20:23:28.011 [Error] Message: Tag początkowy „string” w wierszu 65 na pozycji 4 nie pasuje do tagu końcowego „Bags”. wiersz 69, pozycja 4.
+2017-10-04 20:23:28.011 [Error] Stack Trace:    w System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   w System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   w System.Xml.XmlTextReaderImpl.ParseEndElement()
+   w System.Xml.XmlTextReaderImpl.ParseElementContent()
+   w System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   w System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   w System.Xml.XmlDocument.Load(XmlReader reader)
+   w System.Xml.XmlDocument.LoadXml(String xml)
+   w Intersect.Localization.Language.LoadLanguage(String xmlData) w C:\Users\JC Snider\Desktop\AGD\Intersect-Engine\Intersect Library\Intersect Library\Localization\Language.cs:wiersz 31
+   w Intersect.Localization.Language..ctor(String data, Boolean isRaw) w C:\Users\JC Snider\Desktop\AGD\Intersect-Engine\Intersect Library\Intersect Library\Localization\Language.cs:wiersz 22
+   w Intersect.Localization.Strings.Init(IntersectComponent component, String language) w C:\Users\JC Snider\Desktop\AGD\Intersect-Engine\Intersect Library\Intersect Library\Localization\Strings.cs:wiersz 54
+   w Intersect_Client_MonoGame.IntersectGame..ctor()
+   w Intersect_MonoGameDx.Program.Main()
+2017-10-04 20:23:28.012 [Error] Time: 10/4/2017 8:23:28 PM
+
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,5 @@
+﻿2017-10-06 17:57:11.927 [Info] Connecting to 40.68.120.116:5400...
+2017-10-06 17:57:12.354 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+2017-10-06 17:57:12.368 [Info] Connected [00000000-0000-0000-0000-000000000000].
+2017-10-06 17:57:52.136 [Warn] Received message from an unregistered endpoint.
+2017-10-06 17:57:52.137 [Debug] Could not find a factory for packet of type 112.
